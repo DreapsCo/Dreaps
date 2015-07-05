@@ -1,0 +1,12 @@
+{
+    "name": "DreapsCo/Dreaps",
+    "license": "MIT",
+    "type": "project",
+    "description": "The \"Dreaps Forum Software\"",
+    "autoload": {
+        "psr-0": { "": "src/", "SymfonyStandard": "app/" }
+    },
+	"config": {
+        "vendor-dir": "System"
+    }
+}
