@@ -6,6 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'SymfonyStandard' => array($baseDir . '/app'),
-    '' => array($baseDir . '/src'),
+    'Sabberworm\\CSS' => array($vendorDir . '/sabberworm/php-css-parser/lib'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log'),
+    'JShrink' => array($vendorDir . '/tedivm/jshrink/src'),
+    'Imagine' => array($vendorDir . '/imagine/imagine/lib'),
+    'Doctrine\\Common\\Cache\\' => array($vendorDir . '/doctrine/cache/lib'),
+    'CoffeeScript' => array($vendorDir . '/coffeescript/coffeescript/src'),
+    '' => array($vendorDir),
 );

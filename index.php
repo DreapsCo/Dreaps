@@ -6,7 +6,7 @@
  */
  
 // Make sure we are running PHP5.
-if (version_compare(phpversion(), '5', '<') === true)
+if (version_compare(phpversion(), '5.3.3', '<') === true)
 {
 	exit('Dreaps requires PHP 5 or newer.');
 }
@@ -35,7 +35,6 @@ define('DREAPS_START_TIME', array_sum(explode(' ', microtime())));
 
 // Require DREAPS Init
 require(DREAPS_DIR . 'System' . DREAPS_DS . 'init.inc.php');
-
 
 
 ob_end_flush();
