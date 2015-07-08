@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/../vendor/autoload.php';
+require __DIR__ . '/../System/autoload.php';
 require __DIR__ . '/autoload.php';
 
 ini_set('precision', 14);
