@@ -3,9 +3,6 @@
   "description" : "The \"Dreaps Forum Software\"",
   "version" : "1.0.0",
   "require" : {
-    "meenie/munee" : ">=1.6.0",
-    "monolog/monolog" : ">=1.14.0",
-    "doctrine/cache" : ">=v1.4.1",
     "phpunit/phpunit" : ">=4.7.6"
   },
   "autoload" : {
